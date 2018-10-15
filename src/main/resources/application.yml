@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    name: walletmysql
+    url: jdbc:mysql://localhost:3306/wallethub?useSSL=false
+    username: root
+    password: 123456789
+    driver-class: com.mysql.jdbc.Driver
+accesslog: /Users/murat-adata/Documents/CrossOver/WalletHub/parser-master/src/main/resources/access.log
+startDate: 2018-01-01.12:00:00
+duration: hourly
+threshold: 200
